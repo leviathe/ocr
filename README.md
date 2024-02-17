@@ -33,4 +33,4 @@
 
 -Lancer le binaire avec './main' avec les paramètres voulus.
 
-	-./main loadpath : Le programme chargera l'image sudoku stocké sous loadpath, le résoudra si possible et l'enregistrera.
+-./main loadpath : Le programme chargera l'image sudoku stocké sous loadpath, le résoudra si possible et l'enregistrera.
