@@ -4,36 +4,29 @@ It consists of an application capable of solving a photographed sudoku and displ
 
 ## XOR
 
--Go to neural_network/Soutenance 1/
-
--Utiliser 'make' pour compiler le code
-
--Taper ./main puis :
-	-t : entrainer le réseau de neurones
-	 x x : où x est 0 ou 1 pour obtenir le résultat
+- Go to `neural network/Soutenance 1/`
+- Use `make` to compile
+- Launch: `./main` with either :
+  
+	- `-t` : to train the model
+   
+	- `x x` : where x is either 0 or 1 to gain the xor result
 
 ## Solver
 
--Se placer dans le dossier 'solver/'
-
--Compiler le code avec 'make'
-
--Lancer le binaire avec './solver' puis les paramètres voulus.
-
--L'argument '-h' permet d'afficher les possibilités d'arguments pour le programme, à savoir:
-
- 	-./solver loadpath savepath : le programme chargera le sudoku stocké sous loadpath, le résoudra si possible et enregistrera le résultat dans savepath.
-	
- 	-./solver loadpath : Le programme chargera le sudoku stocké sous loadpath, le résoudra si possible et l'enregistrera sous le même chemin auquel est ajouté '_solved'.
-	
- 	-Si des mauvais arguments sont mal renseignés, le programme affichera un message d'erreur ainsi que le conseil d'utiliser l'argument '-h'.
+- Got to `solver/`
+- Use `make` to compile
+- Launch: `./solver` with either:
+  
+	- `-h` : help
+   
+ 	- `loadpath savepath` : load the content in loadpath file and save the result in savepath file
+    
+ 	- `loadpath` : load the content of loadpath file, solve it and save in the same file with '_solved' suffix.
+    
 
 ## Application
 
--Aller dans Application
-
--Compiler le code avec 'make'
-
--Lancer le binaire avec './main' avec les paramètres voulus.
-
--./main loadpath : Le programme chargera l'image sudoku stocké sous loadpath, le résoudra si possible et l'enregistrera.
+- Go to `Application/`
+- Use `make` to compile
+- Launch `./main x` where `x` is the picture of the sudoku to solve
