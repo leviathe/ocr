@@ -1,7 +1,10 @@
-# ocr
-=============================XOR=============================
+# OCR
+This is the OCR project carried out as part of the 3rd semester at EPITA.
+It consists of an application capable of solving a photographed sudoku and displaying the solved grid with the result.
 
--Aller dans neural network/Soutenance 1/
+## XOR
+
+-Go to neural_network/Soutenance 1/
 
 -Utiliser 'make' pour compiler le code
 
@@ -9,7 +12,7 @@
 	-t : entrainer le réseau de neurones
 	 x x : où x est 0 ou 1 pour obtenir le résultat
 
-============================Solver===========================
+## Solver
 
 -Se placer dans le dossier 'solver/'
 
@@ -25,7 +28,7 @@
 	
  	-Si des mauvais arguments sont mal renseignés, le programme affichera un message d'erreur ainsi que le conseil d'utiliser l'argument '-h'.
 
-============================Application===========================
+## Application
 
 -Aller dans Application
 
